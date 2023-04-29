@@ -34,7 +34,7 @@ function disableButton() {
     }, 3000);
 }
 
-resetBtn.addEventListener("click", () => {
+ restBtn.addEventListener("click", () => {
     coin.style.animation = "none";
     heads = 0;
     tails = 0;
